@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet/styles.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>   
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+
+    <div class="bs-docs-section clearfix">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1>Navbars</h1>
+                  </div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor02">
+                        <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Upcoming Events
+                            <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Organize</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Create an Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscription</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex" data-np-autofill-type="other" data-np-checked="1" data-np-watching="1">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </div>      
+    </div>
+
+    <!-- Logo -->
+    <h1>LOGO</h1>
+    <a class="navbar-brand" id="logo" href="/">
+        <img alt="..." src="assets/img/navbar-logo.svg">
+</a>
+
+    <!-- Bannière -->
+    <h1>BANNER</h1>
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Event Besançon</div>
+            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            <a class="btn btn-primary btn-xl text-uppercase" id="button-yellow" href="#">Events</a>
+        </div>
+    </header>
+
+    
+    <!-- Login form -->
+    <h1>Login Form</h1>
+    <form class="js-validate form-signin p-5" novalidate="novalidate" data-np-autofill-type="login" data-np-checked="1" data-np-watching="1">
+
+    
+        <!-- Title -->
+        <div class="text-center mb-4">
+          <h1 class="h3 mb-0">Please sign in</h1>
+          <p>Signin to manage your account.</p>
+        </div>
+        <!-- End Title -->
+    
+        <!-- Input -->
+        <div class="js-form-message mb-3">
+          <div class="js-focus-state input-group form">
+            <div class="input-group-prepend form__prepend">
+              <span class="input-group-text form__text">
+                <span class="fa fa-user form__text-inner"></span>
+              </span>
+            </div>
+            <input type="email" class="form-control form__input" name="email" required="" placeholder="Email" aria-label="Email" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success" data-np-autofill-type="username">
+            </div>
+        </div>
+        <!-- End Input -->
+    
+        <!-- Input -->
+        <div class="js-form-message mb-3">
+          <div class="js-focus-state input-group form">
+            <div class="input-group-prepend form__prepend">
+              <span class="input-group-text form__text">
+                <span class="fa fa-lock form__text-inner"></span>
+              </span>
+            </div>
+            <input type="password" class="form-control form__input" name="password" required="" placeholder="Password" aria-label="Password" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success" data-np-autofill-type="password">
+          </div>
+        </div>
+        <!-- End Input -->
+    
+        <div class="row mb-3">
+          <div class="col-6">
+            <!-- Checkbox -->
+            <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+              <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
+              <label class="custom-control-label" for="rememberMeCheckbox">
+                Remember Me
+              </label>
+            </div>
+            <!-- End Checkbox -->
+          </div>
+    
+          <div class="col-6 text-right">
+            <a class="float-right" href="recover-account.html">Forgot Password?</a>
+          </div>
+        </div>
+    
+        <div class="mb-3">
+          <button type="submit" class="btn btn-block btn-primary">Signin</button>
+        </div>
+    
+        <div class="text-center mb-3">
+          <p class="text-muted">Do not have an account? <a href="signup-simple.html">Signup</a></p>
+        </div>
+    
+        <!-- Divider -->
+        <div class="text-center u-divider-wrapper my-3">
+          <span class="u-divider u-divider--xs u-divider--text">OR</span>
+        </div>
+        <!-- End Divider -->
+    
+        <!-- Signin Social Buttons -->
+        <div class="row mx-gutters-2 mb-4">
+          <div class="col-sm-6 mb-2 mb-sm-0">
+            <button type="button" class="btn btn-block btn-sm btn-facebook">
+              <span class="fab fa-facebook-f mr-2"></span>
+              Signin with Facebook
+            </button>
+          </div>
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-block btn-sm btn-twitter">
+              <span class="fab fa-twitter mr-2"></span>
+              Signin with Twitter
+            </button>
+          </div>
+        </div>
+        <!-- End Signin Social Buttons -->
+    
+    </form>
+
+    <!-- Formulaire Enregistrement -->
+    <h1>Subscription Form</h1>
+    <form class="js-validate form-signin p-5" novalidate="novalidate" data-np-autofill-type="login" data-np-checked="1" data-np-watching="1">
+
+    
+        <!-- Title -->
+        <div class="text-center mb-4">
+          <h1 class="h3 mb-0">Please registered</h1>
+          <p>Create an account.</p>
+        </div>
+        <!-- End Title -->
+    
+        <!-- Input -->
+        <div class="js-form-message mb-3">
+          <div class="js-focus-state input-group form">
+            <div class="input-group-prepend form__prepend">
+              <span class="input-group-text form__text">
+                <span class="fa fa-user form__text-inner"></span>
+              </span>
+            </div>
+            <input type="email" class="form-control form__input" name="email" required="" placeholder="Email" aria-label="Email" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success" data-np-autofill-type="username">
+            </div>
+        </div>
+        <!-- End Input -->
+    
+        <!-- Input -->
+        <div class="js-form-message mb-3">
+          <div class="js-focus-state input-group form">
+            <div class="input-group-prepend form__prepend">
+              <span class="input-group-text form__text">
+                <span class="fa fa-lock form__text-inner"></span>
+              </span>
+            </div>
+            <input type="password" class="form-control form__input" name="password" required="" placeholder="Password" aria-label="Password" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success" data-np-autofill-type="password">
+            
+          </div>
+        </div>
+        <!-- End Input -->
+
+                <!-- Input -->
+        <div class="js-form-message mb-3">
+          <div class="js-focus-state input-group form">
+            <div class="input-group-prepend form__prepend">
+              <span class="input-group-text form__text">
+                <span class="fa fa-lock form__text-inner"></span>
+              </span>
+            </div>
+            <input type="password" class="form-control form__input" name="password" required="" placeholder="Password confirmation" aria-label="Password" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success" data-np-autofill-type="password">
+            
+          </div>
+        </div>
+        <!-- End Input -->
+    
+    
+        <div class="mb-3">
+          <button type="submit" class="btn btn-block btn-primary">Register</button>
+        </div>
+    
+    
+        <!-- Divider -->
+        <div class="text-center u-divider-wrapper my-3">
+          <span class="u-divider u-divider--xs u-divider--text">OR</span>
+        </div>
+        <!-- End Divider -->
+    
+        <!-- Signin Social Buttons -->
+        <div class="row mx-gutters-2 mb-4">
+          <div class="col-sm-6 mb-2 mb-sm-0">
+            <button type="button" class="btn btn-block btn-sm btn-facebook">
+              <span class="fab fa-facebook-f mr-2"></span>
+              Register with Facebook
+            </button>
+          </div>
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-block btn-sm btn-twitter">
+              <span class="fab fa-twitter mr-2"></span>
+              Register with Twitter
+            </button>
+          </div>
+        </div>
+        <!-- End Signin Social Buttons -->   
+    </form>   
+    
+
+    <!-- Upcoming Events Cards -->
+
+    <section class="page-section bg-light" id="upcoming-events">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Upcoming events</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Upcoming-events 1-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-01.png" alt="..." />
+                        </a>                        
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Concert</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">La Rodia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Upcoming-events 2-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-02.png" alt="..." />
+                        </a>
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Vente de Vinyles</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">Grande Rue</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Upcoming-events 3-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-03.png" alt="..." />
+                        </a>
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Festival</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">Soon</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Upcoming-events 4-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-04.png" alt="..." />
+                        </a>
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Exposition</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">Musée du Temps</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Upcoming-events 5-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-05.png" alt="..." />
+                        </a>
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Atelier Peinture</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">Soon</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Upcoming-events 6-->
+                    <div class="upcoming-events-cards">
+                        <a class="upcoming-events-cards-link" data-bs-toggle="modal" href="#">
+                            <div class="upcoming-events-cards-hover">
+                                <div class="upcoming-events-cards-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/events/event-06.png" alt="..." />
+                        </a>
+                        <div class="upcoming-events-cards-caption">
+                            <div class="upcoming-events-cards-caption-heading">Grande Braderie</div>
+                            <div class="upcoming-events-cards-caption-subheading text-muted">Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Contact -->
+
+            <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+    <!-- Footer -->
+
+    <div class="bs-docs-section clearfix">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1>Footer</h1>
+                </div>
+
+
+
+                <footer class="footer py-4">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                            <div class="col-lg-4 my-3 my-lg-0">
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="col-lg-4 text-lg-end">
+                                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div> 
+    
+</body>
+</html>
